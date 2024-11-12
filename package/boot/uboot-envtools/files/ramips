@@ -48,6 +48,11 @@ h3c,tx1806|\
 jcg,q20)
 	ubootenv_add_uci_config "/dev/mtd1" "0x0" "0x20000" "0x20000"
 	;;
+haier,har-20s2u1|\
+sim,simax1800t)
+	ubootenv_add_uci_config "/dev/mtd1" "0x0" "0x20000" "0x20000"
+	ubootenv_add_uci_sys_config "/dev/mtd1" "0x40000" "0x40000" "0x20000"
+	;;
 hootoo,ht-tm05|\
 ravpower,rp-wd03)
 	idx="$(find_mtd_index u-boot-env)"
