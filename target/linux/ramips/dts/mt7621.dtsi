@@ -547,30 +547,35 @@
 						status = "disabled";
 						reg = <0>;
 						label = "lan0";
+						phy-handle = <&ethphy0>;
 					};
 
 					port@1 {
 						status = "disabled";
 						reg = <1>;
 						label = "lan1";
+						phy-handle = <&ethphy1>;
 					};
 
 					port@2 {
 						status = "disabled";
 						reg = <2>;
 						label = "lan2";
+						phy-handle = <&ethphy2>;
 					};
 
 					port@3 {
 						status = "disabled";
 						reg = <3>;
 						label = "lan3";
+						phy-handle = <&ethphy3>;
 					};
 
 					port@4 {
 						status = "disabled";
 						reg = <4>;
 						label = "lan4";
+						phy-handle = <&ethphy4>;
 					};
 
 					port@6 {
